@@ -2,7 +2,7 @@
 # Introduction
 
 ## Introduction
-This lesson summarizes the topics we'll be covering in section 39 and why they'll be important to you as a data scientist.
+In this section, you'll learn about machine learning algorithms that we encounter every day of our lives:  recommendation systems! 
 
 ## Objectives
 You will be able to:
@@ -11,21 +11,21 @@ You will be able to:
 
 ## Developing a Recommendation System in PySpark
 
-In the previous section, you learned the basics of Pyspark. In this section you'll learn about recommendation system modeling approaches and you'll even build your own recommendation system in PySpark! 
+In this section you'll learn about recommendation system modeling approaches and you'll even build your own recommendation system in PySpark! 
 
 
 ### Introduction to Recommendation Systems
 
-A recommendation system allows predicting the future preference list for a certain customer or user, and recommends the top preference for this user. Examples include: books bought on amazon, netflix movies or series watched, etc. You'll learn about several recommendation systems and how they work.
+A recommendation system allows predicting the future preference list for a certain customer or user, and recommends the top preference for this user. Examples include: which books should be bought on amazon, which netflix movies or series should be watched, etc. You'll learn about several different types of recommendation system algorithms and how they work.
 
 
 ### Collaborative Filtering with Singular Value Decomposition
 
-Collaborative Filtering (CF) is currently most widely used approach to build recommendation systems. CF uses Matrix Factorization with eg. Singular Value Decomposition (SVD) under the hood, which you'll learn about in this section. You'll also practice SVD in Python.
+Collaborative Filtering (CF) is currently most widely used approach to build recommendation systems. Collaborative Filtering often uses Matrix Factorization under the hood, which you'll learn about in this section. You'll also practice a type of Matrix Factorization, Singular Value Decomposition, in Python.
 
 ### Matrix Factorization with Alternating Least Squares
 
-We'll also look at another Matrix Factorization Technique called Alternating Least Squares (ALS). This method can prove to be much more effective and robust than SVD. You'll also learn how ALS is implemented in Spark's machine learning library `MLlib`.
+We'll also look at another Matrix Factorization Technique called Alternating Least Squares (ALS). This method can prove to be much more effective and robust than SVD. You'll also learn how ALS is implemented in Spark's machine learning library `ml`.
 
 ### Building a Recommendation System in PySpark
 
