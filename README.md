@@ -21,7 +21,11 @@ A recommendation system allows predicting the future preference list for a certa
 
 ### Collaborative Filtering with Singular Value Decomposition
 
-Collaborative Filtering (CF) is currently most widely used approach to build recommendation systems. Collaborative Filtering often uses Matrix Factorization under the hood, which you'll learn about in this section. You'll also practice a type of Matrix Factorization, Singular Value Decomposition, in Python.
+Collaborative Filtering (CF) is currently most widely used approach to build recommendation systems. Collaborative Filtering often uses Matrix Factorization under the hood, which you'll learn about in this section.
+
+### Implementing Recommender Systems with Surprise
+
+Surprise is a library that is optimized to efficiently create recommendations. You'll get a chance to use this library to code up different implementations of collaborative filtering recommendation systems.
 
 ### Matrix Factorization with Alternating Least Squares
 
@@ -34,4 +38,4 @@ As a last step, you'll build your own recommendation system in PySpark using the
 
 ## Summary
 
-In this section, you'll learn the basics of recommendation systems and how to implement them in Spark!
+In this section, you'll learn the basics of recommendation systems and how to implement them in Surprise and Spark!
